@@ -1,0 +1,29 @@
+.pokeDex {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 12em);
+  height: 14em;
+  justify-content: center;
+  grid-gap:1em;
+}
+
+.image{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.name{
+  margin-top: -10px;
+  text-align: center;
+}
+
+.link{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-indent:-999px;
+}

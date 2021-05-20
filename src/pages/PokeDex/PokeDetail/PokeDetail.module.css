@@ -1,0 +1,238 @@
+.pokeDetail {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 80%;
+  justify-content: center;
+}
+
+.image{
+  width: 100px;
+  height: auto;
+  margin: 30px auto 10px auto;
+  text-align: center;
+}
+
+.image img{
+  width: 120%;
+}
+
+.name{
+  text-align: center;
+  font-size: 28px;
+}
+
+.statName{
+  padding: 0 30px;
+  text-align: left;
+}
+
+.tableContainer{
+  
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+table tr{
+  border-bottom: solid 1px #eee;
+}
+
+table th,table td{
+  text-align: center;
+  width: 0%;
+  padding: 15px 0;
+}
+
+.goBack{
+  display: block;
+  margin: 20px auto 30px auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color:#1991ec;
+}
+
+.typeContainer{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.typeHeading{
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 15px;
+
+}
+
+.normal{
+  display: inline-block;
+  background-color: rgb(109, 199, 255);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid  rgb(109, 199, 255);
+}
+
+.fighting{
+  display: inline-block;
+  background-color: rgb(255, 70, 70);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid  rgb(255, 70, 70);
+}
+
+.flying{
+  display: inline-block;
+  background-color: rgb(95, 194, 255);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid rgb(95, 194, 255);
+}
+.poison{
+  display: inline-block;
+  background-color: rgb(229, 49, 166);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid rgb(229, 49, 166);
+}
+.ground{
+  display: inline-block;
+  background-color: rgb(220, 220, 93);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid rgb(220, 220, 93);
+}
+.rock{
+  display: inline-block;
+  background-color: rgb(217, 217, 217);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solidrgb(217, 217, 217);
+}
+.bug{
+  display: inline-block;
+  background-color: rgb(184, 104, 244);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid rgb(184, 104, 244);
+}
+.ghost{
+  display: inline-block;
+  background-color: rgb(63, 255, 223);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid rgb(63, 255, 223);
+}
+.steel{
+  display: inline-block;
+  background-color: rgb(153, 210, 84);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solidrgb(153, 210, 84);
+}
+.fire{
+  display: inline-block;
+  background-color: rgb(207, 16, 16);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid rgb(207, 16, 16);
+}
+.water{
+  display: inline-block;
+  background-color: rgb(0, 191, 255);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid rgb(0, 191, 255);
+}
+.grass{
+  display: inline-block;
+  background-color: rgb(199, 255, 77);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid  rgb(199, 255, 77);
+}
+.electric{
+  display: inline-block;
+  background-color: rgb(255, 221, 0);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid rgb(255, 221, 0);
+}
+.psychic{
+  display: inline-block;
+  background-color: rgb(139, 44, 255);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid rgb(139, 44, 255);
+}
+.ice{
+  display: inline-block;
+  background-color: rgb(0, 149, 255);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solidrgb(0, 149, 255);
+}
+.dragon{
+  display: inline-block;
+  background-color: rgb(248, 77, 145);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid rgb(248, 77, 145);
+}
+.dark{
+  display: inline-block;
+  background-color: rgb(48, 48, 48);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid rgb(48, 48, 48);
+}
+.fairy{
+  display: inline-block;
+  background-color: rgb(27, 158, 195);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid rgb(27, 158, 195);
+}
+.shadow{
+  display: inline-block;
+  background-color: rgb(249, 138, 68);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid rgb(249, 138, 68);
+}
+.type{
+  display: inline-block;
+  background-color: lightgrey;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  border: 1px solid lightgray;
+}

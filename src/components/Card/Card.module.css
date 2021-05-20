@@ -1,0 +1,28 @@
+.card {
+  background: #fff;
+  /* padding: 30px 40px; */
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  position: relative;
+
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 12em);
+  height: 12em;
+  justify-content: center;
+  grid-gap:1em;
+}
+
+.detail {
+  width: 100%;
+  height: 700px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 80%;
+  justify-content: center;
+}

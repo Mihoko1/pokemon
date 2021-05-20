@@ -1,0 +1,15 @@
+.loading img{
+  object-fit: contain;
+  text-align: center;
+}
+
+.listLoading{
+  width: 10em;
+  height: 12em;
+  padding-left: 1em;
+}
+
+.detailsLoading{
+  width: 100%;
+  height: auto;
+}
